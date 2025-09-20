@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+=======
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>>>>>>> 9b6fcb2 (Message)
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
+<<<<<<< HEAD
 		<version>3.4.3</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
@@ -29,10 +34,42 @@
 	</scm>
 	<properties>
 		<java.version>17</java.version>
+=======
+		<version>3.5.4</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>in.ss</groupId>
+	<artifactId>SpringOauth2Demo1</artifactId>
+	<version>1.0</version>
+	<name>SpringOauth2Demo1</name>
+	<description>SpringSecurity1</description>
+	<url/>
+	<licenses>
+		<license/>
+	</licenses>
+	<developers>
+		<developer/>
+	</developers>
+	<scm>
+		<connection/>
+		<developerConnection/>
+		<tag/>
+		<url/>
+	</scm>
+	<properties>
+		<java.version>21</java.version>
+>>>>>>> 9b6fcb2 (Message)
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+<<<<<<< HEAD
+=======
+			<artifactId>spring-boot-starter-oauth2-authorization-server</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+>>>>>>> 9b6fcb2 (Message)
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
@@ -41,6 +78,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+<<<<<<< HEAD
 
 		<!--tomcat-jaspe dependancy-->
 		<!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jasper -->
@@ -69,6 +107,8 @@
 		</dependency>
 
 
+=======
+>>>>>>> 9b6fcb2 (Message)
 	</dependencies>
 
 	<build>
